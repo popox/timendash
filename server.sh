@@ -10,4 +10,4 @@ cd $rootDir
 docker build -t timendash $rootDir
 
 # Run it on the port 3030
-docker run -p 3030:3030 timendash
+docker run --name timendash -p 3030:3030 timendash
