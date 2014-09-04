@@ -31,7 +31,7 @@ ADD . /code
 
 
 # Install the gem dependencies
-RUN cd /code && bundle install
+RUN cd /code && bundle install --deployment
 
 
 # RUN the dashboard (default : port 3030)
